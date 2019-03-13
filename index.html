@@ -1,1 +1,265 @@
-TEST
+﻿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="generator" content="pandoc" />
+    <title></title>
+    <style type="text/css">
+        code {
+            white-space: pre;
+        }
+    </style>
+    <style type="text/css">
+        /*
+        *  * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+        *   *
+        *    * CSS for making a resume with pandoc. Inspired by moderncv.
+        *     *
+        *      * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+        *       * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+        *        */
+
+        /* Whole document */
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            width: 800px;
+            margin: auto;
+            background: #FFFFFF;
+            padding: 10px 10px 10px 10px;
+        }
+
+        /* Title of the resume */
+        h1 {
+            font-size: 55px;
+            color: #757575;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 5px;
+        }
+
+        /* Titles of categories */
+        h2 {
+            color: mediumblue;
+        }
+            /* There is a bar just before each category */
+            h2:before {
+                content: "";
+                display: inline-block;
+                margin-right: 1%;
+                width: 16%;
+                height: 10px;
+                background-color: mediumblue;
+            }
+
+        /* Definitions */
+        dt {
+            float: left;
+            clear: left;
+            width: 17%;
+        }
+
+        dd {
+            margin-left: 17%;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 7px;
+        }
+
+        /* Blockquotes */
+        blockquote {
+            text-align: center
+        }
+
+        /* Links */
+        a {
+            text-decoration: none;
+        }
+
+        /* Horizontal separators */
+        hr {
+            color: #A6A6A6;
+        }
+
+        table {
+            width: 100%;
+            border-top: solid;
+            border-bottom: solid;
+            border-color: #999999;
+        }
+
+        a:visited {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="patryk">Szwermer Patryk</h1>
+    <table>
+        <tbody>
+            <tr>
+                <td>Stefana Batorego 23</td>
+                <td style="text-align: right">patryk.szwer@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Gdańsk 80-251</td>
+                <td style="text-align: right">
+                    <a style="color: blue; text-decoration: underline;" href="https://www.linkedin.com/in/patryk-szwermer-aa7715bb">LinkedIn</a>
+                </td>
+            </tr>
+            <tr>
+                <td>Poland</td>
+                <td style="text-align: right">+48 660 489 268</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 id="experience">Experience</h2>
+    <dl>
+        <dt>01.2019 - present</dt>
+        <dd>
+            <p>
+                <strong>Trainer - C#/.NET</strong> •
+                <a href="https://infoshareacademy.com/">InfoShare Academy</a>
+            </p>
+            <p>
+                <em>
+                    I'm a trainer and tutor for my own group at C#/.NET course which prepares people who want to join IT world and become successful C# developers.
+                    I'm responsible for the entire group from the organization perspective but also I'm their product owner (and, at the same time, Tech lead) for projects that they have to develop in groups with full use of scrum methodology.
+                </em>
+            </p>
+        </dd>
+        <dt>04.2017 - present</dt>
+        <dd>
+            <p>
+                <strong>Full-stack Developer</strong> •
+                <a href="https://starcounter.com/">Starcounter</a>
+            </p>
+            <p>
+                <em>
+                    I'm responsible for creating and maintaining beautiful apps in our own framework.
+                    I'm a big part of Web Platform Team which is responsible for development one of the core functionalities for entire company.
+                    We're using latest, sometimes even pre-released web technologies like Polymer 2.0, Shadow DOM or Custom Elements V1.
+                </em>
+            </p>
+        </dd>
+        <dt>04.2016 - 03.2017</dt>
+        <dd>
+            <p>
+                <strong>Junior Software Developer</strong> •
+                <a href="https://www.solwit.com/">SolwIT S.A</a>
+            </p>
+            <p>
+                <em>
+                    I was .NET Developer in a small 3-person team. We successfully developed two fixed-priced projects ahead of schedule, with use of technologies like ASP.NET, WEB API, WPF, Angular 2.0
+                </em>
+            </p>
+        </dd>
+        <dt>09.2015-02.2016</dt>
+        <dd>
+            <p>
+                <strong>Intern - Validation Engineer</strong> •
+                <a href="https://www.intel.com/">Intel Technology Poland</a>
+            </p>
+            <p>
+                <em>I was responsible for functional testing of software for intel prototype hardware responsible for security and stability.</em>
+            </p>
+        </dd>
+        <dt>08.2015</dt>
+        <dd>
+            <p>
+                <strong> Apprentice - .NET Developer</strong> •
+                <a href="https://www.pgs-soft.com/pl/">PGS Software</a>
+            </p>
+            <p>
+                <em>My 4-person team's task was to create MVC application using SCRUM methodology.</em>
+            </p>
+        </dd>
+    </dl>
+    <br />
+    <h2 id="education">Education</h2>
+    <dl>
+        <dt>10.2012-02.2016</dt>
+        <dd>
+            <p>
+                <strong>Engineer</strong> • Gdańsk University of Technology, Faculty of Electronics, Telecommunications and Informatics
+            </p>
+            <p>
+                <em>Information Technology - full-time studies
+                </em>
+            </p>
+        </dd>
+    </dl>
+    <h2 id="technical-experience">Technical skills</h2>
+    <dl>
+        <dt>Backend</dt>
+        <dd>
+            <ul>
+                <li>C# 7.0</li>
+                <li>ASP.NET</li>
+                <li>MVC/MVVM pattern</li>
+                <li>NuGet</li>
+                <li>Selenium</li>
+                <li>Moq</li>
+                <li>NUnit</li>
+                <li>FluentAssertions</li>
+            </ul>
+        </dd>
+        <dt>Frontend</dt>
+        <dd>
+            <ul>
+                <li>HTML 5</li>
+                <li>Javascript (ECMAScript 2015)</li>
+                <li>Polymer 2.0</li>
+                <li>Shadow DOM</li>
+                <li>Custom elements v1</li>
+            </ul>
+        </dd>
+        <dt>Tools</dt>
+        <dd>
+            <ul>
+                <li>Visual Studio 2017</li>
+                <li>Git</li>
+                <li>npm/bower</li>
+                <li>Chrome DevTools</li>
+                <li>SQL Server Management Studio</li>
+            </ul>
+        </dd>
+        <dt>Others</dt>
+        <dd>
+            <ul>
+                <li>Resharper</li>
+                <li>GitHub</li>
+                <li>Teamcity</li>
+                <li>Browserstack</li>
+            </ul>
+        </dd>
+    </dl>
+    <h2 id="miscellaneous">Miscellaneous</h2>
+<dl>
+    <dt>Languages</dt>
+    <dd>
+        <ul>
+            <li>English - fluent in speaking and writing</li>
+            <li>German - basic</li>
+        </ul>
+    </dd>
+    <dt>Hobbies</dt>
+    <dd>
+        <ul>
+            <li>Technology</li>
+            <li>Computer games</li>
+            <li>Psychology</li>
+            <li>Board games</li>
+            <li>Bartending (Certificated)</li>
+        </ul>
+    </dd>
+</dl>
+<small>I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the Personal Data Protection Act as of 29 August 1997, consolidated text: Journal of Laws 2016, item 922 as amended.</small>
+</body>
+</html>
